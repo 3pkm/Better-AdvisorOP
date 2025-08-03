@@ -1,0 +1,43 @@
+# Core Django framework
+Django==5.2.4
+
+# Database support
+sqlparse==0.5.3
+
+# ASGI support for Django
+asgiref==3.9.1
+
+# Timezone data
+tzdata==2025.2
+
+# Google Generative AI integration
+google-generativeai>=0.8.0
+
+# Environment configuration management
+python-decouple>=3.8
+
+# Additional dependencies for production deployment (optional)
+# Uncomment these if deploying to production
+
+# Web server
+# gunicorn>=21.2.0
+
+# Database drivers (uncomment as needed)
+# psycopg2-binary>=2.9.7  # PostgreSQL
+mysqlclient>=2.2.0      # MySQL
+
+# Redis for caching/sessions (if needed)
+redis>=5.0.0
+django-redis>=5.4.0
+
+# CORS handling for API (if needed)
+django-cors-headers>=4.3.0
+
+# API framework (if building REST APIs)
+djangorestframework>=3.14.0
+
+# Development and testing tools (optional)
+# pytest>=7.4.0
+# pytest-django>=4.5.0
+# black>=23.0.0
+# flake8>=6.0.0
